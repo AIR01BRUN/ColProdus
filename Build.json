@@ -1,0 +1,36 @@
+{
+    "folder": [
+        {
+            "id": "camp",
+            "numId": 0,
+            "idGo": "",
+            "itemRequis": [],
+            "ptsConstructionActual": -1.0,
+            "workers": []
+        },
+        {
+            "id": "maison",
+            "numId": 0,
+            "idGo": "",
+            "itemRequis": [],
+            "ptsConstructionActual": -1.0,
+            "workers": []
+        },
+        {
+            "id": "maison",
+            "numId": 1,
+            "idGo": "",
+            "itemRequis": [],
+            "ptsConstructionActual": -1.0,
+            "workers": []
+        },
+        {
+            "id": "scierie",
+            "numId": 0,
+            "idGo": "",
+            "itemRequis": [],
+            "ptsConstructionActual": -1.0,
+            "workers": []
+        }
+    ]
+}
