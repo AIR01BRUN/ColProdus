@@ -1,0 +1,8 @@
+{
+  "id": "flour",
+  "name": "Flour",
+  "maxStack": 100,
+  "type": "processed",
+  "subType": "flour",
+  "value": 2
+}

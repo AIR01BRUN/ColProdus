@@ -1,0 +1,8 @@
+{
+  "id": "coin",
+  "name": "Coin",
+  "maxStack": 9999,
+  "type": "currency",
+  "subType": "coin",
+  "value": 1
+}

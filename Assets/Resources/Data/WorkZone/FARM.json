@@ -1,0 +1,11 @@
+{
+  "id": "farm",
+  "baseSize": {
+    "x": 5,
+    "y": 5
+  },
+  "level": 1,
+  "workerAssignment": true,
+  "taskAvailable": true,
+   "color": {"r": 0.2,"g": 0.8,"b": 0.2,"a": 1.0}
+}

@@ -1,0 +1,49 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="SlotRoot" style="width: 80px; height: 80px; padding: 4px;">
+        <ui:VisualElement name="Background" class="slot-background" style="
+            flex-grow: 1; 
+            background-color: rgba(30, 30, 30, 0.9); 
+            border-top-width: 2px; 
+            border-right-width: 2px; 
+            border-bottom-width: 2px; 
+            border-left-width: 2px; 
+            border-left-color: rgb(80, 80, 80); 
+            border-right-color: rgb(80, 80, 80); 
+            border-top-color: rgb(80, 80, 80); 
+            border-bottom-color: rgb(80, 80, 80); 
+            justify-content: center; 
+            align-items: center;
+            position: relative;">
+            
+            <!-- Icône / Image -->
+            <ui:VisualElement name="IconContainer" style="
+                width: 60px; 
+                height: 60px; 
+                background-color: rgba(0, 0, 0, 0.3); 
+                background-size: contain; 
+                background-position: center center;
+                margin-bottom: 4px;"/>
+            
+            <!-- Quantité -->
+            <ui:Label name="QuantityLabel" text="" style="
+                position: absolute; 
+                bottom: 4px; 
+                right: 6px; 
+                color: rgb(255, 255, 200); 
+                font-size: 14px; 
+                -unity-font-style: bold; 
+                unity-text-align: middle-right;"/>
+            
+            <!-- Nom de l'item (optionnel, visible en petit) -->
+            <ui:Label name="ItemName" text="" style="
+                position: absolute; 
+                bottom: 2px; 
+                left: 0; 
+                right: 0; 
+                font-size: 9px; 
+                color: rgb(200, 200, 200); 
+                unity-text-align: middle-center; 
+                opacity: 0.75;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,11 @@
+{
+  "id": "camp",
+  "baseSize": {
+    "x": 5,
+    "y": 5
+  },
+  "level": 1,
+  "workerAssignment": true,
+  "taskAvailable": true,
+  "color": {"r": 1,"g": 0.9,"b": 0.1,"a": 1.0}
+}

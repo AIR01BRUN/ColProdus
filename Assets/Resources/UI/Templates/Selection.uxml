@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="Project">
+    <ui:VisualElement name="ROOT" style="flex-grow: 0; width: 380px; height: 100%; flex-direction: row; overflow: hidden;">
+        
+        <!-- Barre gauche -->
+        <ui:VisualElement name="LeftBar" style="width: 24px; min-width: 24px; background-color: rgba(30,30,30,0.95);" />
+        
+        <!-- Contenu principal -->
+        <ui:VisualElement name="Content" style="flex-grow: 1; flex-shrink: 1; padding: 4px;">
+            <ui:VisualElement name="CurrentTemplate" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        
+    </ui:VisualElement>
+</ui:UXML>

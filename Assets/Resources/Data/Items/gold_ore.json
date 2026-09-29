@@ -1,0 +1,8 @@
+{
+  "id": "gold_ore",
+  "name": "Gold Ore",
+  "maxStack": 100,
+  "type": "raw",
+  "subType": "ore",
+  "value": 20
+}

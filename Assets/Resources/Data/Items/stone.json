@@ -1,0 +1,8 @@
+{
+  "id": "stone",
+  "name": "Stone",
+  "maxStack": 100,
+  "type": "raw",
+  "subType": "stone",
+  "value": 1
+}

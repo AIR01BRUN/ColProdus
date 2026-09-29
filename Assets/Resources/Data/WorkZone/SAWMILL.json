@@ -1,0 +1,11 @@
+{
+  "id": "sawmill",
+  "baseSize": {
+    "x": 6,
+    "y": 6
+  },
+  "level": 1,
+  "workerAssignment": true,
+  "taskAvailable": true,
+  "color": {"r": 0.42,"g": 0.33,"b": 0.22,"a": 1.0}
+}

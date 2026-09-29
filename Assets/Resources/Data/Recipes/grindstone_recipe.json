@@ -1,0 +1,20 @@
+{
+  "id": "grindstone_recipe",
+  "idBuild": "grindstone",
+  "name": "Moudre le Blé",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Production",
+      "workPoints": 10,
+      "attributes": ["AGI"],
+      "requiresWorker": true,
+      "inputs": [
+        { "itemID": "wheat", "quantity": 1 }
+      ],
+      "outputs": [
+        { "itemID": "flour", "quantity": 1 }
+      ]
+    }
+  ]
+}

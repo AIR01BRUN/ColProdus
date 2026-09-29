@@ -1,0 +1,15 @@
+{
+  "id": "salaryadministrator",
+  "numId": -1,
+  "idGo": "objet",
+  "itemRequis": [
+  ],
+  "size": {
+    "x": 1,
+    "y": 1
+  },
+  "ptsConstructionNeed": 20,
+  "attributes": ["INT"],
+  "inventory": true,
+  "workZone": ["camp"]
+}

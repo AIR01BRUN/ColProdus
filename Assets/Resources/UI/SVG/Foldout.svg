@@ -1,0 +1,18 @@
+<svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="6" cy="6" r="6" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 30.4056 16.9706)" fill="black"/>
+<circle cx="5" cy="5" r="5" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 30.4056 15.5564)" fill="#6D95BB"/>
+<circle cx="4" cy="4" r="4" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 30.4056 14.1421)" fill="#43607B"/>
+<circle cx="6" cy="6" r="6" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 30.4056 60.8112)" fill="black"/>
+<circle cx="5" cy="5" r="5" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 30.4056 59.397)" fill="#6D95BB"/>
+<circle cx="4" cy="4" r="4" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 30.4056 57.9828)" fill="#43607B"/>
+<rect width="27" height="8" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 33.234 55.1543)" fill="#43607B"/>
+<line y1="-0.5" x2="35" y2="-0.5" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 33.234 55.1543)" stroke="#6D95BB"/>
+<line y1="-0.5" x2="26" y2="-0.5" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 26.8701 48.7904)" stroke="#6D95BB"/>
+<line y1="-0.5" x2="37" y2="-0.5" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 33.9411 55.8614)" stroke="black"/>
+<line y1="-0.5" x2="25" y2="-0.5" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 26.1629 48.0833)" stroke="black"/>
+<rect width="8" height="35" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 52.3259 36.0625)" fill="#43607B"/>
+<line y1="-0.5" x2="27" y2="-0.5" transform="matrix(0.707107 0.707107 0.707107 -0.707107 27.5772 11.3137)" stroke="#6D95BB"/>
+<line y1="-0.5" x2="36" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 58.6899 31.1127)" stroke="#6D95BB"/>
+<line y1="-0.5" x2="26" y2="-0.5" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 44.5477 31.1127)" stroke="black"/>
+<line y1="-0.5" x2="36" y2="-0.5" transform="matrix(0.707107 0.707107 0.707107 -0.707107 34.6482 4.24265)" stroke="black"/>
+</svg>

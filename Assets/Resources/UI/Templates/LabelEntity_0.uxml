@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="LabelEntityRoot" style="width: 100px; height: 100px; position: relative; flex-direction: column; justify-content: center; align-items: center; background-color: rgb(20, 20, 20); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); padding: 8px; margin-bottom: 4px;">
+        <ui:Button name="RemoveButton" text="×" style="position: absolute; top: 4px; right: 4px; width: 20px; height: 20px; background-color: rgba(255, 85, 85, 0.85); color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); display: none;"/>
+        <ui:Label name="Name" text="Entity" style="color: rgb(255, 255, 255); font-size: 12px; unity-text-align: middle-center; text-overflow: ellipsis; unity-font-style: bold;"/>
+    </ui:VisualElement>
+</ui:UXML>

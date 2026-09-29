@@ -1,0 +1,30 @@
+{
+  "id": "furnace_recipe",
+  "idBuild": "furnace",
+  "name": "Cuire le Pain",
+  "needEnergy": true,
+  "steps": [
+    {
+      "step": 1,
+      "action": "Wait",
+      "workPoints": 20,
+      "attributes": [],
+      "requiresWorker": false,
+      "inputs": [
+        { "itemID": "dough", "quantity": 1 }
+      ],
+      "outputs": []
+    },
+    {
+      "step": 2,
+      "action": "getItem",
+      "workPoints": 0,
+      "attributes": [],
+      "requiresWorker": true,
+      "inputs": [],
+      "outputs": [
+        { "itemID": "bread", "quantity": 1 }
+      ]
+    }
+  ]
+}

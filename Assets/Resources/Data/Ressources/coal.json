@@ -1,0 +1,16 @@
+{
+  "id": "coal",
+  "numId": 3,
+  "idGo": "objetRessource",
+  "ptsNeed": 250,
+  "growthRate": 1,
+  "rarity": 2,
+  "attributes": ["STR", "quarry"],
+  "lootTable": [
+    {
+      "idItem": "coal_ore",
+      "quantity": 6,
+      "chance": 100
+    }
+  ]
+}

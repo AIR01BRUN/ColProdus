@@ -1,0 +1,16 @@
+{
+  "id": "stone",
+  "numId": 2,
+  "idGo": "objetRessource",
+  "ptsNeed": 150,
+  "growthRate": 1,
+  "rarity": 1,
+  "attributes": ["VIT", "quarry"],
+  "lootTable": [
+    {
+      "idItem": "stone",
+      "quantity": 10,
+      "chance": 100
+    }   
+  ]
+}

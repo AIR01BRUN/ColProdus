@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="ListEntityContainer" style="flex-direction: column; flex-grow: 1; background-color: rgba(0, 0, 0, 0.78); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); padding: 10px; gap: 10px; width: 100%; height: 100%;">
+        <ui:VisualElement name="Nav" style="flex-direction: row; min-height: 40px; background-color: rgb(0, 0, 0); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); padding: 5px; align-items: center; gap: 5px;"/>
+        <ui:VisualElement name="MainContent" style="flex-direction: column; flex-grow: 1; gap: 10px; padding-top: 0; margin-top: 2px; margin-bottom: 2px; height: auto;">
+            <ui:ScrollView name="EntityGridScroll" style="flex-grow: 1; background-color: rgb(10, 10, 10); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(200, 200, 200); border-right-color: rgb(200, 200, 200); border-top-color: rgb(200, 200, 200); border-bottom-color: rgb(200, 200, 200); padding: 5px; height: 130px;">
+                <ui:VisualElement name="GridContainer" style="flex-direction: row; flex-wrap: wrap; align-content: flex-start; gap: 8px; padding: 5px;"/>
+            </ui:ScrollView>
+            <ui:VisualElement name="SelectionPanel" style="flex-direction: column; gap: 5px; display: none; margin-bottom: 2px;">
+                <ui:Label text="Selected" style="color: rgb(255, 255, 255); font-size: 14px; -unity-font-style: bold;"/>
+                <ui:ScrollView name="SelectedScroll" style="height: 130px; background-color: rgb(15, 15, 15); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(200, 200, 200); border-right-color: rgb(200, 200, 200); border-top-color: rgb(200, 200, 200); border-bottom-color: rgb(200, 200, 200); padding: 5px; flex-direction: row;">
+                    <ui:VisualElement name="SelectedContainer" style="flex-direction: row; flex-wrap: wrap; align-content: flex-start; gap: 8px; padding: 5px;"/>
+                </ui:ScrollView>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ButtonContainer" style="flex-direction: row; height: 40px; gap: 5px; justify-content: flex-end;">
+            <ui:Button name="CloseButton" text="Close" style="border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(255, 80, 80); border-right-color: rgb(255, 80, 80); border-top-color: rgb(255, 80, 80); border-bottom-color: rgb(255, 80, 80); background-color: rgb(0, 0, 0); padding: 5px 10px; color: rgb(255, 80, 80); -unity-font-style: bold; width: auto;"/>
+            <ui:Button name="ResetButton" text="Reset" style="border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(255, 165, 0); border-right-color: rgb(255, 165, 0); border-top-color: rgb(255, 165, 0); border-bottom-color: rgb(255, 165, 0); background-color: rgb(0, 0, 0); padding: 5px 10px; color: rgb(255, 165, 0); -unity-font-style: bold; width: auto;"/>
+            <ui:Button name="ValidateButton" text="Validate" style="border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(0, 200, 0); border-right-color: rgb(0, 200, 0); border-top-color: rgb(0, 200, 0); border-bottom-color: rgb(0, 200, 0); background-color: rgb(0, 0, 0); padding: 5px 10px; color: rgb(0, 200, 0); -unity-font-style: bold;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

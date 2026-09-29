@@ -1,0 +1,16 @@
+{
+  "id": "copper",
+  "numId": 6,
+  "idGo": "objetRessource",
+  "ptsNeed": 350,
+  "growthRate": 1,
+  "rarity": 3,
+  "attributes": ["STR", "quarry"],
+  "lootTable": [
+    {
+      "idItem": "copper_ore",
+      "quantity": 3,
+      "chance": 100
+    }
+  ]
+}

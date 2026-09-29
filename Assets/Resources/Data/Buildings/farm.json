@@ -1,0 +1,18 @@
+{
+  "id": "farm",
+  "numId": -1,
+  "idGo": "objet",
+  "itemRequis": [
+    {
+      "id": "wood",
+      "quantity": 3
+    }
+  ],
+  "size": {
+    "x": 1,
+    "y": 1
+  },
+  "ptsConstructionNeed": 20,
+  "attributes": ["STR"],
+  "workZone": ["farm"]
+}

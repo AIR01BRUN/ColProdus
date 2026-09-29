@@ -1,0 +1,37 @@
+{
+  "id": "farm_wheat_recipe",
+  "idBuild": "farm",
+  "name": "Production de Blé",
+  "steps": [
+    {
+      "step": 1,
+      "action": "Plant",
+      "workPoints": 10,
+      "attributes": ["STR"],
+      "requiresWorker": true,
+      "inputs": [
+      ],
+      "outputs": []
+    },
+    {
+      "step": 2,
+      "action": "Grow",
+      "workPoints": 20,
+      "attributes": ["VIT"],
+      "requiresWorker": false,
+      "inputs": [],
+      "outputs": []
+    },
+    {
+      "step": 3,
+      "action": "Harvest",
+      "workPoints": 10,
+      "attributes": ["STR"],
+      "requiresWorker": true,
+      "inputs": [],
+      "outputs": [
+        { "itemID": "wheat", "quantity": 5 }
+      ]
+    }
+  ]
+}

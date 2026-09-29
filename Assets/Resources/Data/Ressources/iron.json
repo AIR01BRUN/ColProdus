@@ -1,0 +1,16 @@
+{
+  "id": "iron",
+  "numId": 4,
+  "idGo": "objetRessource",
+  "ptsNeed": 400,
+  "growthRate": 1,
+  "rarity": 3,
+  "attributes": ["STR", "quarry"],
+  "lootTable": [
+    {
+      "idItem": "iron_ore",
+      "quantity": 4,
+      "chance": 100
+    }
+  ]
+}

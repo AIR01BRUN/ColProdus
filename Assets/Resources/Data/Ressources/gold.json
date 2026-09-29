@@ -1,0 +1,16 @@
+{
+  "id": "gold",
+  "numId": 5,
+  "idGo": "objetRessource",
+  "ptsNeed": 600,
+  "growthRate": 1,
+  "rarity": 4,
+  "attributes": ["STR", "quarry"],
+  "lootTable": [
+    {
+      "idItem": "gold_ore",
+      "quantity": 2,
+      "chance": 100
+    }
+  ]
+}

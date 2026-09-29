@@ -1,0 +1,22 @@
+{
+  "id": "mine",
+  "numId": -1,
+  "idGo": "objet",
+  "itemRequis": [],
+  "size": {
+    "x": 1,
+    "y": 1
+  },
+  "ptsConstructionNeed": 0,
+  "inventory": false,
+  "worker": false,
+  "deco": false,
+  "workZone": ["quarry"],
+  "attributes": ["STR"],
+  "mineLevels": [
+    { "level": 1 },
+    { "level": 2 },
+    { "level": 3 },
+    { "level": 4 }
+  ]
+}

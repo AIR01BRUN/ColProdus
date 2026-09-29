@@ -1,0 +1,46 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="InventoryRoot" style="
+        flex-direction: column; 
+        background-color: rgba(15, 15, 15, 0.95); 
+        border-top-width: 3px; 
+        border-right-width: 3px; 
+        border-bottom-width: 3px; 
+        border-left-width: 3px; 
+        border-left-color: rgb(100, 100, 100); 
+        border-right-color: rgb(100, 100, 100); 
+        border-top-color: rgb(100, 100, 100); 
+        border-bottom-color: rgb(100, 100, 100); 
+        padding: 10px; 
+        min-width: 420px; 
+        min-height: 380px;">
+        
+        <!-- Header -->
+        <ui:VisualElement name="Header" style="flex-direction: row; align-items: center; justify-content: space-between; margin-bottom: 10px;">
+            <ui:Label name="InventoryName" text="Inventaire" style="
+                font-size: 18px; 
+                color: rgb(255, 215, 100); 
+                -unity-font-style: bold;"/>
+            
+            <ui:Label name="CapacityLabel" text="12/24" style="color: rgb(180, 180, 180); font-size: 13px;"/>
+        </ui:VisualElement>
+        
+        <!-- Slots Grid -->
+        <ui:ScrollView name="SlotsContainer" mode="Vertical" style="
+            flex-grow: 1; 
+            background-color: rgba(0, 0, 0, 0.3); 
+            padding: 8px;">
+            
+            <ui:VisualElement name="SlotsGrid" style="
+                flex-direction: row; 
+                flex-wrap: wrap; 
+                gap: 8px; 
+                justify-content: flex-start;"/>
+                
+        </ui:ScrollView>
+        
+        <!-- Footer (optionnel) -->
+        <ui:VisualElement name="Footer" style="flex-direction: row; justify-content: flex-end; margin-top: 8px; gap: 8px;">
+            <!-- Tu peux ajouter des boutons ici plus tard (Trier, Fermer, etc.) -->
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

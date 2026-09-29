@@ -1,0 +1,10 @@
+{
+  "id": "wood",
+  "name": "Wood",
+  "maxStack": 100,
+  "type": "raw",
+  "subType": "wood",
+  "value": 1,
+  "energyId": "Heat",
+  "energyValue": 10
+}

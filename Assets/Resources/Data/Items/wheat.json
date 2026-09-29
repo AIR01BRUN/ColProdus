@@ -1,0 +1,8 @@
+{
+  "id": "wheat",
+  "name": "Wheat",
+  "maxStack": 100,
+  "type": "raw",
+  "subType": "crop",
+  "value": 1
+}

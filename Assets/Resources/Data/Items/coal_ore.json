@@ -1,0 +1,10 @@
+{
+  "id": "coal_ore",
+  "name": "Coal Ore",
+  "maxStack": 100,
+  "type": "raw",
+  "subType": "ore",
+  "value": 3,
+  "energyId": "Heat",
+  "energyValue": 50
+}

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="" class="navbar" style="flex-direction: column; background-color: rgba(0, 0, 0, 0.78); padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; flex-shrink: 0;">
+        <ui:VisualElement name="" class="navbar" style="flex-direction: column; background-color: rgba(0, 0, 0, 0.78); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; left: auto; align-self: auto; flex-grow: 0; flex-shrink: 0; height: auto;">
+            <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: row; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px;">
+                <ui:Label text="Task name" name="TaskName" style="color: rgb(255, 255, 255); -unity-font-style: bold; margin-top: 0; margin-right: 10px; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 100%; -unity-text-align: middle-left;"/>
+                <ui:Label text="State" name="TaskState" style="color: rgb(255, 255, 255); margin-top: 0; margin-right: 10px; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-left;"/>
+                <ui:Label text="Worker" name="TaskWorker" style="color: rgb(255, 255, 255); margin-top: 0; margin-right: 10px; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-left;"/>
+                <ui:Label text="Kind" name="TaskKind" style="color: rgb(255, 255, 255); margin-top: 0; margin-right: 10px; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-left;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UI/Templates/Prefab/FoldoutValue.uss?fileID=7433441132597879392&amp;guid=d6c600cb83c9aba429292814dd735abb&amp;type=3#FoldoutValue"/>
+    <ui:VisualElement name="ROOT" style="flex-grow: 1;">
+        <ui:Button text="Button" name="btn" class="FoldoutValue" style="margin-top: 2px; margin-right: 2px; margin-bottom: 2px; margin-left: 2px;"/>
+    </ui:VisualElement>
+</ui:UXML>

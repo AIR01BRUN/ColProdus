@@ -1,0 +1,37 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="ROOT" style="flex-grow: 1; flex-direction: column; background-color: rgb(28, 38, 51); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-color: rgb(109, 149, 187); border-right-color: rgb(109, 149, 187); border-bottom-color: rgb(109, 149, 187); border-left-color: rgb(109, 149, 187); border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; padding-top: 6px; padding-bottom: 6px; margin-bottom: 10px;">
+        <!-- 1 : filtres + recherche + compteur -->
+        <ui:VisualElement name="FilterZone" style="flex-grow: 0; flex-direction: column; padding-left: 8px; padding-right: 8px; padding-top: 2px; padding-bottom: 6px; background-color: rgb(43, 60, 79); border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; margin-left: 4px; margin-right: 4px;">
+            <ui:VisualElement name="FilterHeader" style="flex-grow: 0; flex-direction: row; align-items: center;">
+                <ui:Label name="Title" text="Selection" style="flex-grow: 1; color: rgb(255, 255, 255); font-size: 15px; -unity-font-style: bold; -unity-text-align: middle-left; margin-left: 4px;"/>
+                <ui:Label name="Counter" text="0 / 0" style="flex-grow: 0; color: rgb(255, 255, 255); font-size: 11px; -unity-font-style: bold; -unity-text-align: middle-center; min-width: 46px; padding-top: 3px; padding-right: 8px; padding-bottom: 3px; padding-left: 8px; background-color: rgb(67, 96, 123); border-top-left-radius: 9px; border-top-right-radius: 9px; border-bottom-right-radius: 9px; border-bottom-left-radius: 9px; margin-right: 4px;"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 0; height: 1px; background-color: rgb(109, 149, 187); margin-top: 6px; margin-bottom: 6px; margin-left: 2px; margin-right: 2px;"/>
+            <!-- filtres à gauche, recherche à droite -->
+            <ui:VisualElement name="FilterRow" style="flex-grow: 0; flex-direction: row; align-items: flex-start;">
+                <ui:VisualElement name="FilterContainer" style="flex-grow: 1; flex-shrink: 1; flex-direction: row; flex-wrap: wrap; align-content: flex-start; align-items: center;"/>
+                <ui:VisualElement name="SearchZone" style="flex-grow: 0; flex-shrink: 0; flex-direction: row; align-items: center; margin-left: 8px;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- 2 : tous les éléments -->
+        <ui:ScrollView name="ChoicesScroll" mode="Vertical" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); margin-top: 4px;">
+            <ui:VisualElement name="ContentChoices" style="flex-grow: 0; flex-direction: row; flex-wrap: wrap; align-content: flex-start; padding-left: 4px; padding-right: 4px; padding-top: 2px; padding-bottom: 2px;"/>
+        </ui:ScrollView>
+
+        <!-- 3 : sélection + quantité + boutons -->
+        <ui:VisualElement name="SelectionZone" style="flex-grow: 0; flex-direction: column; padding-left: 8px; padding-right: 8px; padding-top: 6px; padding-bottom: 4px; background-color: rgb(43, 60, 79); border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; margin-top: 4px; margin-left: 4px; margin-right: 4px;">
+            <ui:VisualElement name="SelectionHeader" style="flex-grow: 0; flex-direction: row; align-items: center;">
+                <ui:Label name="SelectionTitle" text="SELECTION" style="flex-grow: 0; color: rgb(203, 174, 156); font-size: 12px; -unity-font-style: bold; -unity-text-align: middle-left; margin-left: 4px;"/>
+                <ui:VisualElement name="QuantityZone" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: flex-end; margin-left: 8px;"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 0; height: 1px; background-color: rgb(109, 149, 187); margin-top: 6px; margin-bottom: 4px; margin-left: 2px; margin-right: 2px;"/>
+            <!-- hauteur fixe : une ligne de cases, défilement horizontal au-delà -->
+            <ui:ScrollView name="SelectionScroll" mode="Horizontal" style="flex-grow: 0; height: 114px; background-color: rgba(0, 0, 0, 0);">
+                <ui:VisualElement name="ContentSelection" style="flex-grow: 0; flex-direction: row; align-items: flex-start; padding-top: 2px; padding-bottom: 2px;"/>
+            </ui:ScrollView>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="Buttons" style="flex-grow: 0; flex-direction: row; justify-content: flex-end; align-items: center; padding-left: 4px; padding-right: 8px; padding-top: 8px; padding-bottom: 4px;"/>
+    </ui:VisualElement>
+</ui:UXML>

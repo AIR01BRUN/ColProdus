@@ -1,0 +1,68 @@
+.FoldoutValue {
+    background-color: rgb(43, 60, 79);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(109, 149, 187);
+    border-right-color: rgb(109, 149, 187);
+    border-bottom-color: rgb(109, 149, 187);
+    border-left-color: rgb(109, 149, 187);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 15px;
+    -unity-text-align: upper-left;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    transition-duration: 0.2s;
+}
+
+.FoldoutValue:hover {
+    background-color: rgb(67, 96, 123);
+    border-top-color: rgb(203, 174, 156);
+    border-right-color: rgb(203, 174, 156);
+    border-bottom-color: rgb(203, 174, 156);
+    border-left-color: rgb(203, 174, 156);
+}
+
+.FoldoutValue:active {
+    background-color: rgb(28, 38, 51);
+    border-top-color: rgb(255, 242, 76);
+    border-right-color: rgb(255, 242, 76);
+    border-bottom-color: rgb(255, 242, 76);
+    border-left-color: rgb(255, 242, 76);
+}
+
+.FoldoutVakueSelect {
+    background-color: rgb(67, 96, 123);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(255, 242, 76);
+    border-right-color: rgb(255, 242, 76);
+    border-bottom-color: rgb(255, 242, 76);
+    border-left-color: rgb(255, 242, 76);
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-left;
+}

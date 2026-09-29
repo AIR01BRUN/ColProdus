@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="ROOT" style="flex-grow: 1; width: 100%; height: 100%; padding-left: 18px; padding-right: 18px; padding-top: 14px; padding-bottom: 14px; background-color: rgb(35, 35, 35);">
+        <ui:Label text="PAWN SCHEDULE" style="font-size: 22px; color: rgb(235, 235, 235); -unity-font-style: bold; margin-bottom: 4px;" />
+        <ui:Label name="PawnLabel" text="PAWN: NONE" style="font-size: 14px; color: rgb(170, 170, 170); margin-bottom: 14px;" />
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="Hours" style="flex-grow: 1; flex-direction: row; flex-wrap: wrap; align-content: flex-start; padding-right: 18px;" />
+            <ui:VisualElement name="Tags" style="flex-grow: 0; width: 140px; padding-left: 10px; border-left-width: 1px; border-left-color: rgb(80, 80, 80);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

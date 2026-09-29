@@ -1,0 +1,16 @@
+{
+  "id": "tree",
+  "numId": 1,
+  "idGo": "objetRessource",
+  "ptsNeed": 100,
+  "growthRate": 10,
+  "attributes": ["VIT"],
+  "lootTable": [
+    {
+      "idItem": "wood",
+      "quantity": 5,
+      "chance": 100
+    }
+   
+  ]
+}

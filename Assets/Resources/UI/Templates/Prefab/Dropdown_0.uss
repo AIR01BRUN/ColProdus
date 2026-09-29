@@ -1,0 +1,58 @@
+.Value .unity-text-input {
+    background-color: transparent;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.Value .unity-base-text-field__input {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    color: rgb(255, 255, 255);
+}
+
+.Value {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-width: 0;
+}
+
+.Value * {
+}
+
+.Value .unity-base-field__label {
+    display: none;
+}
+
+.Value .unity-base-field__input,
+.Value .unity-popup-field__input {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-width: 0;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.Value .unity-popup-field__text {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.Value .unity-popup-field__arrow {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}

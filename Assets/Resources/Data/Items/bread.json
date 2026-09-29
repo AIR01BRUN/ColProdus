@@ -1,0 +1,9 @@
+{
+  "id": "bread",
+  "name": "Bread",
+  "maxStack": 100,
+  "type": "food",
+  "subType": "bread",
+  "nutrition": 50,
+  "value": 3
+}

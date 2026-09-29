@@ -1,0 +1,14 @@
+{
+  "id": "seedbag",
+  "numId": -1,
+  "idGo": "objet",
+  "itemRequis": [
+  ],
+  "size": {
+    "x": 1,
+    "y": 1
+  },
+  "ptsConstructionNeed": 0,
+  "worker": false,
+  "workZone": ["sawmill"]
+}

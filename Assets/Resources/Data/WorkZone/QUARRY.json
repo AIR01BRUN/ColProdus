@@ -1,0 +1,16 @@
+{
+  "id": "quarry",
+  "baseSize": {
+    "x": 7,
+    "y": 7
+  },
+  "level": 1,
+  "workerAssignment": true,
+  "taskAvailable": true,
+  "color": {
+    "r": 0.35,
+    "g": 0.32,
+    "b": 0.28,
+    "a": 1.0
+  }
+}

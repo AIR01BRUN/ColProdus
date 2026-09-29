@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="Arrow_0.uss" />
+    <ui:VisualElement name="ArrowRoot" class="arrow-root">
+        <ui:VisualElement name="ArrowOuter" class="arrow-outer">
+            <ui:VisualElement name="ArrowInner" class="arrow-inner">
+                <ui:VisualElement name="ArrowTop" class="arrow-segment arrow-top" />
+                <ui:VisualElement name="ArrowBottom" class="arrow-segment arrow-bottom" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
